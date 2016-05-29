@@ -17,7 +17,7 @@ public class Main {
         crossRoad1.addVehicles(new Car("KIA", "АЛ 0007 СТ"));
 
         crossRoad.countVehicles();
-
+        System.out.println(crossRoad.getVehicles().size() +  " vehicles have moved on the crossroad: " + crossRoad.getName());
         System.out.println(crossRoad.getCarCounter() + " Cars have moved on the crossroad: " + crossRoad.getName());
         System.out.println(crossRoad.getTruckCounter() + " Trucks have moved on the crossroad: " + crossRoad.getName());
         System.out.println(crossRoad.getMotocycleCounter() + " Motocycles have moved on the crossroad: " + crossRoad.getName());
